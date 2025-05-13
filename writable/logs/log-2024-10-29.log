@@ -1,0 +1,27 @@
+CRITICAL - 2024-10-29 22:48:59 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-29 22:50:00 --> ParseError: syntax error, unexpected variable "$config", expecting "function" or "const"
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Config.php on line 154.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\TCC\\system\\Database\\Config.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Database\\Config')
+ 3 APPPATH\Config\Database.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Database\\Config')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\TCC\\app\\Config\\Database.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\TCC\\app\\Config\\Database.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 7 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(258): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 8 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(75): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 9 SYSTEMPATH\Debug\Toolbar.php(68): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+10 SYSTEMPATH\Config\Services.php(796): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+11 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+12 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+13 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+14 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::toolbar()
+15 APPPATH\Config\Events.php(47): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+16 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+18 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

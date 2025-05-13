@@ -1,0 +1,44 @@
+CRITICAL - 2024-10-17 12:25:07 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 12:25:22 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 12:27:59 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 12:28:29 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 12:28:30 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 12:28:30 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 12:28:53 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 16:36:14 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 16:45:38 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: /]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 16:46:06 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: teste]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 16:46:56 --> ErrorException: Cannot redeclare Config\Database::$default
+[Method: GET, Route: teste]
+in APPPATH\Config\Database.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
